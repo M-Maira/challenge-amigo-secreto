@@ -15,3 +15,9 @@ function agregarAmigo (){
         return; 
     }
 }
+
+// Función limpiar campo de entrada
+
+function limpiarCampo (){
+    document.querySelector("#Amigo") = " ";
+}
