@@ -28,8 +28,6 @@ function agregarAmigo (){
     
 }
 
-console.log(listaAmigo)
-
 // Función limpiar campo de entrada
 
 function limpiarCampo (){
@@ -60,6 +58,7 @@ function sortearAmigo(){
 
     if (sorteoRealizado){
         reiniciarSorteo(); // reinicia el juego si ya se realizo el sorteo
+        return;
     }
    
     //Validar que hayan elementos en la lista
@@ -79,11 +78,6 @@ function sortearAmigo(){
     let resultado = document.getElementById("resultado");
     resultado.innerHTML= (`El amigo sorteado es <strong> ${sorteo}</strong>!`);
 
-    //Limpiar lista
-
-    let limpiarLista = document.getElementById("listaAmigos");
-    limpiarLista.innerHTML = "";
-
     //Marcar sorteo realizado y cambiar botón
 
     sorteoRealizado = true;
@@ -96,14 +90,16 @@ function sortearAmigo(){
 
 function reiniciarSorteo(){
     listaAmigo=[];
-    sorteoRealizado = false
+    sorteoRealizado = false;
     cambiarBoton();
 
     //Eliminar el nombre del ganador y lista de nombres
+   
     let limpiarResultado = document.getElementById("resultado");
-    limpiarResultado.innerHTML = ""; 
-    
-    document.getElementById("listaAmigos")="";
+    limpiarResultado.innerHTML = "";
+
+    document.getElementById("listaAmigos").innerHTML="";
+        
 }
 
 // Función para cambiar botón de sorteo/reiniciar
