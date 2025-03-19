@@ -20,9 +20,9 @@
 ✅ Cambia dinámicamente el botón entre **"Sortear"** y **"Reiniciar"**.
 
 ## 🛠️ Tecnologías Utilizadas
-    HTML5: Estructura y diseño de la página
-    CSS3: Estilos visuales
-    JavaScript: Lógica del juego
+    **HTML5**: Estructura y diseño de la página
+    **CSS3**: Estilos visuales
+    **JavaScript**: Lógica del juego
 
 ## 📂 Estructura del Proyecto
 
@@ -77,8 +77,8 @@
 <img src="assets/reiniciar.png" alt="Vista del juego sin los participantes" width="600">
 </p>
 
-**Autores**
+## Autores
 
 -Mondillo, Maira: implementación de lógica en JavaScript
 
--Alura Latam: Diseño del HTML y CSS.
+-**Alura Latam**: Diseño del HTML y CSS.
