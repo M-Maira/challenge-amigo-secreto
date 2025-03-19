@@ -20,11 +20,11 @@
 ✅ Cambia dinámicamente el botón entre **"Sortear"** y **"Reiniciar"**.
 
 ## 🛠️ Tecnologías Utilizadas
-    - **HTML5**: Estructura y diseño de la página
+    - HTML5: Estructura y diseño de la página
 
-    - **CSS3**: Estilos visuales
-    
-    - **JavaScript**: Lógica del juego
+    - CSS3: Estilos visuales
+
+    - JavaScript: Lógica del juego
 
 ## 📂 Estructura del Proyecto
 
