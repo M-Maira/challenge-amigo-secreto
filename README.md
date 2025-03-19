@@ -4,7 +4,7 @@
 
 🖥️ **Vista Previa**
 
-<img src="assets/image.png" alt="Vista del juego" >
+<img src="assets/image.png" alt="Vista del juego" width="600">
 
 
 ## 🚀 Características principales
@@ -27,11 +27,17 @@
 ## 📂 Estructura del Proyecto
 
 📁 src
+
 ├── 📄 index.html
+
 ├── 📄 style.css
+
 ├── 📄 script.js
+
 └── 📁 assets
+
     ├── play_circle_outline.png
+
     └── restart_alt.png
 
 ## 🚀 Instalación
@@ -53,17 +59,17 @@
 1. **Agregar participantes**: 
     ingresá los nombres en el campo de texto y haz clic en "Añadir"   para   agregar los nombres a una lista que se mostrara debajo del campo de texto.
 
-<img src="assets/agregar_participantes.png" alt="Vista de como se agragna participantes" >
+<img src="assets/agregar_participantes.png" alt="Vista de como se agragna participantes" width="600">
 
 2. **Sorteo aleatorio**: 
     al hacer clic en el botón "Sortear amigo", el juego seleccionará un nombre de forma aleatoria y lo mostrará en pantalla. 
 
-<img src="assets/sortear_amigo.png" alt="Vista del ganador del sorteo" >
+<img src="assets/sortear_amigo.png" alt="Vista del ganador del sorteo" width="600">
 
 3. **Reiniciar**: 
-    una vez que se realiza el sorteo, el botón "Sortear amigo" cambia a "Reiniciar sorteo", al cliclear se limpia la lista de amigos y el resultado comenzando nuevamente el juego.  
+    una vez que se realiza el sorteo, el botón "Sortear amigo" cambia a "Reiniciar sorteo", al cliclear se limpia la lista de amigos y el resultado, comienza nuevamente el juego!  
 
-<img src="assets/reiniciar.png" alt="Vista del juego sin los participantes" >
+<img src="assets/reiniciar.png" alt="Vista del juego sin los participantes" width="600">
 
 
-Autor: Mondillo, Maira.
+**Autor**: Mondillo, Maira.
