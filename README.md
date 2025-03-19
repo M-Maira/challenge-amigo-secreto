@@ -80,4 +80,5 @@
 **Autores**
 
 -Mondillo, Maira: implementación de lógica en JavaScript
+
 -Alura Latam: Diseño del HTML y CSS.
